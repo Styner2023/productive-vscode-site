@@ -2,6 +2,8 @@ import Image from "next/image";
 import GetSamplesForm from "./GetSamplesForm";
 
 export default function SiteHero() {
+  const [message, setMessage] = useState("");
+  
   return (
     <div className="mx-8 lg:py-28 text-center relative bg-gradient-to-br from-indigo-600 via-purple-700 to-purple-900 rounded-lg overflow-hidden flex items-center justify-center">
       {/* content */}
